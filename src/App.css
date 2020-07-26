@@ -1,8 +1,174 @@
 .App {
   text-align: center;
+  background-color: rebeccapurple;
 }
 
-.App-logo {
+.h2{
+  font-size: 50px;
+}
+
+.bigForm {
+  background-color: rgb(248, 213, 219);
+  border-radius: 0.8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 15vh 15vh 15vh 15vh 20vh 8vh;
+  border: solid;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-panel{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  background-color: #373146;
+  text-align: center;
+  padding-top: 2vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.panel-image{
+  padding: 10px 0px 100px 55px;
+  width: 75%;
+}
+
+.comp-1, .comp-2, .comp-3, .comp-4, .comp-5, .comp-6, .comp-7, .comp-8, .comp-9, .comp-10, .comp-11, .comp-12{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.comp-1{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  padding: 75px;
+  line-height: 50px;
+}
+
+.comp-2, .comp-3{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.comp-2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.comp-3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-top: 40px;
+}
+
+.comp-4, .comp-5{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding-bottom: 30px;
+}
+
+.comp-4{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.comp-5{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-left: 4px;
+}
+
+.comp-6, .comp-7{
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.comp-6{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-bottom: 20px;
+  padding-top: 2.5vh;
+}
+
+.comp-7{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-left: 35px;
+  padding-bottom: 1px;
+}
+
+.comp-8, .comp-9{
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.comp-8{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.comp-9{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-top: 5.5vh;
+}
+
+.comp-10, .comp-11{
+  background-color: white;
+  border-radius: 1.5%;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.comp-10{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.comp-11{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.comp-12{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  text-align: center;
+}
+
+a:visited{
+  color: white;
+  font-family: 'Monserrat', sans-serif;
+}
+
+p{
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: bolder;
+}
+
+.field{
+  margin-top: 0;
+  width: 20vh;
+}
+
+.button{
+  width: 20vh;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +201,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
