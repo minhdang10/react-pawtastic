@@ -123,7 +123,7 @@ class App extends React.Component {
       <div>
         <div className = "bigForm">
           <div className = "form-panel">
-            <h1>Pawtastic</h1>
+            <h1>PAWTASTIC</h1>
             <img className = "panel-image" src="./purpledog.jpg" alt="dogImage"/>
           </div>
          
